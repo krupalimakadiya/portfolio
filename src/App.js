@@ -11,7 +11,7 @@ function App() {
                 <h1 className="name">Krupali Makadiya</h1>
                 <h2 className="desc">Full Stack Developer</h2>   
                 <ul className="social list-inline">
-                    <li className="list-inline-item"><a href="#"><i className="fab fa-twitter"></i></a></li>                   
+                    <li className="list-inline-item"><a href="https://twitter.com/KrupaliMakadiya"><i className="fab fa-twitter"></i></a></li>                   
                     <li className="list-inline-item"><a href="#"><i className="fab fa-google-plus-g"></i></a></li>
                     <li className="list-inline-item"><a href="https://www.linkedin.com/in/krupali-makadiya-458293129"><i className="fab fa-linkedin-in"></i></a></li>
                     <li className="list-inline-item"><a href="https://github.com/krupalimakadiya/"><i className="fab fa-github-alt"></i></a></li>    
@@ -45,7 +45,7 @@ function App() {
                <section className="latest section">
                     <div className="section-inner">
                         <h2 className="heading">Latest Projects</h2>
-                        <div className="content">                                                   
+                        {/* <div className="content">                                                   
                             <hr className="divider" />
                             <div className="item row">
                                 <a className="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
@@ -90,7 +90,7 @@ function App() {
                                     <p><a className="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank"><i className="fas fa-external-link-alt"></i>Find out more</a></p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
                                 
@@ -99,17 +99,23 @@ function App() {
                         <h2 className="heading">Work Experience</h2>
                         <div className="content">
                             <div className="item">
-                                <h3 className="title">Co-Founder - <span className="place"><a href="#">Techno Girls</a></span> <span className="year">(Present)</span></h3>
+                                <h3 className="title">Project Manager - <span className="place"><a href="#">Synceed Infotech</a></span> <span className="year">(Present)</span></h3>
                                 <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
                             </div>
                             <div className="item">
-                                <h3 className="title">Software Developer - <span className="place"><a href="#">Patoliya Infotech</a></span> <span className="year">(2013 - 2014)</span></h3>
-                                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+                                <h3 className="title">Mean Stack Developer - <span className="place"><a href="#">Patoliya Infotech</a></span> <span className="year">(2018 - Present)</span></h3>
+                                <p>I am working as mean stack developer since more then 1 year with Patoliya infotech. I learn angular js, node js, react js, express js and many more things during my job. </p>
+                                    <p>My key role is </p>
+                                    <ul>
+                                        <li>Writing clean, functional code on the front- and back-end</li>
+                                        <li>Testing and fixing bugs or other coding issues</li>
+                                        <li>Web scraping with Puppeteer library</li>
+                                    </ul>
                             </div>
                             
                             <div className="item">
                                 <h3 className="title">Trainee Developer - <span className="place"><a href="#">Raksh Infotech</a></span> <span className="year">(2012 - 2013)</span></h3>
-                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <p>I done my project training as raksh infotech and my position is Trainee PHP developer. During my training i created project which is named as creative cafe and this site is provide a platform to new talent of people. It's connect young people to industry professionls</p>
                             </div>
                             
                         </div>
@@ -123,7 +129,7 @@ function App() {
                         <div className="content">
                             <ul className="list-unstyled">
                                 <li><i className="fas fa-map-marker-alt"></i><span className="sr-only">Location:</span>Surat,Gujarat - India</li>
-                                <li><i className="fas fa-envelope"></i><span className="sr-only">Email:</span><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">krupalimakadiya123@gmail.com</a></li>
+                                <li><i className="fas fa-envelope"></i><span className="sr-only">Email:</span><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">iamkrupalimakadiya@gmail.com</a></li>
                                 <li><i className="fas fa-link"></i><span className="sr-only">Website:</span><a href="https://krupalimakadiya.github.io/">https://www.website.com</a></li>
                             </ul>
                         </div>
@@ -182,7 +188,7 @@ function App() {
                     </div>
                 </aside>
                 
-                <aside className="testimonials aside section">
+                {/* <aside className="testimonials aside section">
                     <div className="section-inner">
                         <h2 className="heading">Testimonials</h2>
                         <div className="content">
@@ -196,15 +202,15 @@ function App() {
                         </div>
                     </div>
                 </aside>
-                
+                 */}
                 <aside className="education aside section">
                     <div className="section-inner">
                         <h2 className="heading">Education</h2>
                         <div className="content">
-                            <div className="item">                      
+                            {/* <div className="item">                      
                                 <h3 className="title"><i className="fas fa-graduation-cap"></i> MSc Computer Science</h3>
                                 <h4 className="university">University College London <span className="year">(2011-2012)</span></h4>
-                            </div>
+                            </div> */}
 							          <div className="item">
                                 <h3 className="title"><i className="fas fa-graduation-cap"></i> BCA Computer Science</h3>
                                 <h4 className="university">VNSGU<span className="year">(2015-2018)</span></h4>
